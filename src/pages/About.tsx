@@ -22,15 +22,17 @@ const About: React.FC = () => {
           
           <h2 className="text-xl font-semibold mt-6 mb-3 text-[#007acc]">Professional Experience</h2>
           <div className="mb-4 border-l-2 border-[#007acc] pl-4">
-            <h3 className="font-medium">Senior Software Engineer</h3>
-            <p className="text-sm text-gray-400">Example Company • 2022 - Present</p>
+            <h3 className="font-medium">Campus Ambassador</h3>
+            <p className="text-sm text-gray-400">Geeks for Geeks • July 2024 - Present</p>
             <ul className="list-disc list-inside mt-2">
-              <li>Developed and maintained key features for the company's flagship product</li>
-              <li>Led a team of 5 developers to deliver projects on time and within scope</li>
-              <li>Implemented CI/CD pipelines reducing deployment time by 60%</li>
+              <li> Link between GFG and the academic community, spearheading initiatives to cultivate programming excellence
+              and technical knowledge among students.</li>
+              <li>Guided 100+ students to participate in coding challenges and hackathons, fostering a culture of
+              programming.</li>
+              {/* <li>Implemented CI/CD pipelines reducing deployment time by 60%</li>   */}
             </ul>
           </div>
-          
+{/*           
           <div className="mb-4 border-l-2 border-[#555] pl-4">
             <h3 className="font-medium">Software Developer</h3>
             <p className="text-sm text-gray-400">Previous Company • 2019 - 2022</p>
@@ -39,12 +41,12 @@ const About: React.FC = () => {
               <li>Built responsive front-end interfaces with React and TypeScript</li>
               <li>Collaborated with the design team to improve user experience</li>
             </ul>
-          </div>
+          </div> */}
           
           <h2 className="text-xl font-semibold mt-6 mb-3 text-[#007acc]">Education</h2>
           <div className="mb-4">
-            <h3 className="font-medium">Bachelor of Science in Computer Science</h3>
-            <p className="text-sm text-gray-400">University Name • 2015 - 2019</p>
+            <h3 className="font-medium">Bachelor of Technology in Computer Science</h3>
+            <p className="text-sm text-gray-400">University Name • 2022 - 2026</p>
           </div>
           
           <h2 className="text-xl font-semibold mt-6 mb-3 text-[#007acc]">What I Do</h2>
@@ -56,18 +58,18 @@ const About: React.FC = () => {
             
             <div className="bg-[#1e1e1e] p-4 rounded border border-[#333]">
               <h3 className="font-medium text-[#007acc]">Back-end Development</h3>
-              <p className="text-sm">Node.js, Express, Django, PostgreSQL</p>
+              <p className="text-sm">Node.js, Express, MongoDB</p>
             </div>
             
             <div className="bg-[#1e1e1e] p-4 rounded border border-[#333]">
               <h3 className="font-medium text-[#007acc]">DevOps</h3>
-              <p className="text-sm">Docker, Kubernetes, AWS, GitHub Actions</p>
+              <p className="text-sm">Docker, GitHub Actions</p>
             </div>
             
-            <div className="bg-[#1e1e1e] p-4 rounded border border-[#333]">
+            {/* <div className="bg-[#1e1e1e] p-4 rounded border border-[#333]">
               <h3 className="font-medium text-[#007acc]">Mobile Development</h3>
               <p className="text-sm">React Native, Flutter</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

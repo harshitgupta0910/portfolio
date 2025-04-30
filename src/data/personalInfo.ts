@@ -1,10 +1,10 @@
 export const personalInfo = {
-  name: "Raj Savaliya",
-  title: "Software Development Engineer",
-  email: "your.email@example.com",
-  github: "https://github.com/yourusername",
-  linkedin: "https://linkedin.com/in/yourusername",
-  twitter: "https://twitter.com/yourusername",
-  about: "Software engineer specializing in full-stack development with a passion for creating clean, efficient, and user-friendly applications.",
-  yearStarted: 2021 // The year you started coding/working
+  name: "Harshit Gupta",
+  title: "Frontend Developer",
+  email: "harshitgupta0910@gmail.com",
+  github: "https://github.com/harshitgupta0910",
+  linkedin: "https://linkedin.com/in/harshit-gupta-6bb680259",
+  twitter: "https://twitter.com/harshitgupta100",
+  about: "Frontend developer with a passion for creating clean, efficient, and user-friendly applications and currently learning backend.",
+  yearStarted: 2022 // The year you started coding/working
 };
