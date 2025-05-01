@@ -3,6 +3,8 @@ import { personalInfo } from '../data/personalInfo';
 import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+//no work done today
+
 const Home: React.FC = () => {
   return (
     <div className="h-full flex flex-col justify-center">

@@ -36,5 +36,4 @@ export interface SidebarFolder {
   expanded?: boolean;
   children: (SidebarFile | SidebarFolder)[];
 }
-
 export type SidebarItem = SidebarFile | SidebarFolder;
