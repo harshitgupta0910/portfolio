@@ -19,6 +19,7 @@ const Home: React.FC = () => {
         <p className="text-lg mb-8 opacity-80 max-w-2xl">
           {personalInfo.about}
         </p>
+        {/* fsdf */}
         
         <div className="flex space-x-4 mb-8">
           <a 
