@@ -14,19 +14,13 @@ const Skills: React.FC = () => {
       { name: 'Node.js', level: 80 },
       { name: 'Express', level: 75 },
       { name: 'Python', level: 70 },
-      { name: 'Django', level: 65 },
-      { name: 'PostgreSQL', level: 70 },
       { name: 'MongoDB', level: 75 },
     ],
     devops: [
       { name: 'Git', level: 85 },
-      { name: 'Docker', level: 70 },
-      { name: 'AWS', level: 65 },
-      { name: 'CI/CD', level: 75 },
     ],
     other: [
       { name: 'Problem Solving', level: 85 },
-      { name: 'Agile/Scrum', level: 80 },
       { name: 'Technical Writing', level: 75 },
     ]
   };
