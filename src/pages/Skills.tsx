@@ -7,7 +7,6 @@ const Skills: React.FC = () => {
       { name: 'JavaScript', level: 85 },
       { name: 'TypeScript', level: 80 },
       { name: 'React', level: 85 },
-      { name: 'Next.js', level: 75 },
       { name: 'Tailwind CSS', level: 80 },
     ],
     backend: [
@@ -34,7 +33,7 @@ const Skills: React.FC = () => {
         </div>
         <div className="h-2.5 bg-[#333] rounded-full">
           <div 
-            className="h-2.5 bg-[#007acc] rounded-full" 
+            className="h-2.5 bg-[#3bc7e0] rounded-full" 
             style={{ width: `${level}%` }}
           ></div>
         </div>
@@ -118,9 +117,9 @@ const Skills: React.FC = () => {
 {`// Skills.js
 const mySkills = {
   frontend: ['HTML/CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS'],
-  backend: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL', 'MongoDB'],
-  devops: ['Git', 'Docker', 'AWS', 'CI/CD'],
-  other: ['Problem Solving', 'Agile/Scrum', 'Technical Writing']
+  backend: ['Node.js', 'Express', 'Python', 'SQL', 'MongoDB'],
+  devops: ['Git', 'Docker', 'AWS'],
+  other: ['Problem Solving', 'Technical Writing']
 };
 
 // Always learning and improving
